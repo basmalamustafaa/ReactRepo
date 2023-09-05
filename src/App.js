@@ -2,7 +2,9 @@
 // import './App.css';
 
 import FruitsVeg from "./Components/FruitsVeg/FruitsVeg"
+import About from "./Components/About/About"
 import { Component } from "react"
+import Pizza from "./Components/Pizza"
 
 
 // function App() {
@@ -33,7 +35,8 @@ render (){
   return <>
   <h1></h1>
   
-  <FruitsVeg/>
+  <About></About>
+  <Pizza></Pizza>
   </>
 }
 }
