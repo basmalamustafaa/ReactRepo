@@ -1,0 +1,14 @@
+.icons{
+   
+    margin-top: 1rem;
+    color: white;
+    display: inline;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    margin-left: 0.5rem;
+   
+}
+.icons i {
+    color: #333;
+  }
