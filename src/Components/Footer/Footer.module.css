@@ -12,3 +12,13 @@
 .icons i {
     color: #333;
   }
+  .copy {
+    padding-top: 15px ;
+    padding-bottom: 15px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #1a252f;
+    margin-bottom: 0%;
+    color: white;
+  }

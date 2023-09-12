@@ -33,36 +33,38 @@ export default function Footer() {
       }
   
   return (
-    <>
-    <footer  style={{backgroundColor:'#2c3e50',marginTop:'auto',padding:'71px'}}>
+    < >
+
+   
+    <footer  style={{backgroundColor:'#2c3e50',padding:'71px'}}>
         <div className="container">
     <div className="row">
        <div className="col mt-4 ">
-         <div className='text-white text-uppercase fw-bolder fs-3 '>Location</div>
+         <div className='text-white text-uppercase fw-bolder fs-3 mb-2 '>Location</div>
          <p className='text-white text-uppercase mb-2 fs-6'>2215 John Daniel Drive</p>
          <p className='text-white text-uppercase  fs-6' style={{marginBottom:'1rem'}}>Clark, MO 65243</p>
     </div>
        <div className="col mt-4 ">
-       <div className='text-white text-uppercase fw-bolder fs-3 '>Around The web</div>
-         <p >
+       <div className='text-white text-uppercase fw-bolder fs-3 mb-2 '>Around The web</div>
+         <div >
             <Facebook></Facebook>
             <Twitter></Twitter>
             <LinkedIn></LinkedIn>
             <Web></Web>
-         </p>
+         </div>
     </div>
        <div className="col mt-4 ">
-       <div className='text-white text-uppercase fw-bolder fs-3 '>About freelancer</div>
+       <div className='text-white text-uppercase fw-bolder fs-3 mb-2'>About freelancer</div>
          <p className='text-white ' style={{marginBottom:'1rem'}}>Freelance is a free to use, licensed Bootstrap theme created by Route</p>
     </div>
 </div>
 </div>
 
     </footer>
-    <div className='copy text-center' style={{backgroundColor:'#1a252f'}}>
-    <p className='copyright text-white text-center py-4' > Copyright © Your Website 2021</p>
+    <div className={styles.copy}  style={{backgroundColor:'#1a252f'}}>
+    <p className={styles.copy} > Copyright © Your Website 2021</p>
     </div>
-   
     </>
+    
   )
 }
