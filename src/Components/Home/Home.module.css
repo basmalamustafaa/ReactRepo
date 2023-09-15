@@ -29,11 +29,10 @@
     height: 96vh;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
-    
+    justify-content: center; 
     
 }
+
 .hi{
     width: 100%;
     display: flex;

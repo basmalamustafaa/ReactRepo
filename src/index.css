@@ -18,3 +18,11 @@ code {
   border-radius: 10px;
   padding: 1.5rem;
 }
+
+.modal-backdrop {
+  opacity: 0.6; /* Adjust the value as needed */
+  background-color: #ffffff; /* Adjust the color as needed */
+}
+
+
+

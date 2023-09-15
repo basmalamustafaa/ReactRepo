@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import '@fortawesome/fontawesome-free/css/all.min.css'; // Import FontAwesome CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/js/dist/modal';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
