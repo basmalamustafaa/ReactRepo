@@ -1,0 +1,51 @@
+.avatar{
+   
+    width: 250px;
+}
+.line{
+    width: 80px;
+    height: 4px;
+    background-color: #2c3e50;
+ 
+  
+}.line2{
+    width: 80px;
+    height: 4px;
+    background-color: #2c3e50;
+    
+}
+.boxx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+.box2{
+    display: flex;
+    padding-top: 8%;
+    text-align: center;
+    padding-bottom: 50px;
+    height: max-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+.hi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.labelll{
+position: relative !important;
+top: 0 !important; 
+display: inline-block;
+margin-bottom: 7px;
+margin-right: 610px;
+margin-top: 4px;
+transition: top 0.6s ease 0s;
+
+}
