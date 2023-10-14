@@ -4,7 +4,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <footer className='py-4 mt-5 bg-light'>
-        <h1 className='pb-3 mb-3'> get the freshCart app </h1>
+        <h1 className='pb-3 mb-3 text-center'> get the freshCart app </h1>
         <div className="container py-5 ">
         
             <div className="row">

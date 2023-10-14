@@ -46,7 +46,7 @@ let{data}=await axios.post(`${BaseUrl}/api/v1/auth/signin`,value).catch((err)=>{
       localStorage.setItem('userToken',data.token) //hena ana b-save el token fel local storage 3ndy w hwdeh ll context ashan astkhdmo fe ay heta
       //hena mafrod a-fill el isLogin bel token bta3ty b3d el login ma yb2a success 
       setIsLogin(data.token)
-      navigate('/cart')
+      navigate('/')
 
 }
 }
@@ -61,8 +61,9 @@ let{data}=await axios.post(`${BaseUrl}/api/v1/auth/signin`,value).catch((err)=>{
 //formic.dirty m3naha en el form dost 3leha , fana as long as el form ma dostesh 3leha fa ana mfrod akhly el button disabled
   return (
    
-    <div className="container mx-3">
-    <h2>Login</h2>
+    <div className="container m-3 py-4" style={{minHeight:"100vh"}}>
+    {/* <h2 className='mx-3 w-75'>Login</h2> */}
+   {error? <p class="alert alert-danger">{error} </p>:''}
     {loading?
           <div className='d-flex justify-content w-100 align-items-center'>
           <ThreeDots 
@@ -78,7 +79,7 @@ let{data}=await axios.post(`${BaseUrl}/api/v1/auth/signin`,value).catch((err)=>{
           </div>
           :""}
       <form className="w-75 mx-auto" onSubmit={formik.handleSubmit}>
-
+      <h2 className='aaa ' style={{marginBottom:"2rem"}}>Login</h2>
         <label htmlFor="email" className="form-label my-2 " >Email</label>
         <input type="email" className="form-control"  id="email" name='email' value={formik.values.email}
          onChange={formik.handleChange} onBlur={formik.handleBlur} />

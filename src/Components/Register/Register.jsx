@@ -7,6 +7,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { ThreeDots } from 'react-loader-spinner';
+import {Helmet} from "react-helmet";
 
 
 YupPassword(Yup);
@@ -81,7 +82,11 @@ console.log(loading);
   //formic.dirty m3naha en el form dost 3leha , fana as long as el form ma dostesh 3leha fa ana mfrod akhly el button disabled
   return (
     <>
-      
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Register</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
         <div className="container mx-3">
         
         <>
